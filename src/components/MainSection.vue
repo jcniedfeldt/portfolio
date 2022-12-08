@@ -1,16 +1,16 @@
 <template>
   <div class="">
-    <Header />
+    <HeaderSection />
     <!-- <button class="mdc-button mdc-button--raised">Button</button> -->
     <!-- <h1>{{ msg }}</h1> -->
   </div>
 </template>
 
 <script>
-import Header from "./Header.vue";
+import HeaderSection from "./HeaderSection.vue";
 export default {
-  name: "Main",
-  components: { Header },
+  name: "MainSection",
+  components: { HeaderSection },
   props: {
     msg: String
   }
